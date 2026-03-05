@@ -1,0 +1,26 @@
+# Doganer Lojistik - Robots.txt
+# Created: 2026-02-25
+
+User-agent: *
+Allow: /
+
+# Main pages
+Allow: /index.html
+Allow: /hizmetler.html
+Allow: /hakkimizda.html
+Allow: /blog.html
+Allow: /iletisim.html
+
+# Blog content
+Allow: /blog/
+
+# Static files
+Allow: /style.css
+Allow: /assets/
+
+# Sitemap
+Sitemap: https://www.doganerlojistik.com/sitemap.xml
+
+# Restricted areas (none for now)
+# Disallow: /admin/
+# Disallow: /api/
