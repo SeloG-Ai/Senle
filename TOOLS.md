@@ -61,6 +61,18 @@ docker cp [CONTAINER_ID]:/data/.openclaw/workspace/dosya.html ./
 ls -la /data/.openclaw/workspace/
 ```
 
+### GitHub Sync
+- **Repo:** https://github.com/SeloG-Ai/Senle
+- **Branch:** main
+- **Auto-sync:** `/data/.openclaw/workspace/git-sync.sh`
+- **Manual:**
+  ```bash
+  cd /data/.openclaw/workspace
+  git add .
+  git commit -m "Your message"
+  git push origin main
+  ```
+
 ---
 
 Add whatever helps you do your job. This is your cheat sheet.
